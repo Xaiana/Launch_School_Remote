@@ -25,10 +25,9 @@ def add_five(n)
   puts n + 5
 end
 
-puts add_five(7)
+puts add_five(5)
 
-
-def add_three(n)
+def add_three(n)    # does not work in irb
   new_value = n + 3
   puts new_value
   new_value
