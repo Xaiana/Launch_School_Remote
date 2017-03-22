@@ -84,6 +84,27 @@ strong.highlight {
   color: blue;
 }
 
+button {
+	background-color: white;
+	color: green;
+	padding: 16px 32px;
+	font-size: 20px;
+	margin: 18px 18px;
+	}
+
+.buttonhovers:hover {
+	background-color: green;
+	color: white;
+}
+
+.buttondata:[atr=content] {
+	&after {
+		content: atr("data-hover")
+		background-color: blue;
+		color: white;
+	}
+}
+
 #root {
 
 }
